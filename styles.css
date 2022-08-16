@@ -2,8 +2,9 @@ body {
     font: 400 20px/1.5 "Source Sans Pro", "Open Sans", Roboto, "San Francisco", Helvetica, Arial, sans-serif;
     margin: 0;
     background: #bdbdbd
-    
-}
+ }
+
+
 div {
     box-sizing: border-box;
 }
@@ -15,9 +16,11 @@ header h1 {
     margin: 0;
 }
 .post-header{
-    display: contents; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
 }
-div.post {
+.post {
     background: white;
     margin-top: 10px;
 }
@@ -40,7 +43,7 @@ div.post h2, div.post p{
     padding: 10px;
 }
 div.container {
-    background-color: gray;
+
     width: 600px;
     margin: auto;
 }
